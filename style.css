@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.title{
+    margin-top: 100px;
+}
+
+.calc{
+    padding: 30px 0;
+}
+
+label {
+    margin-bottom: 100px;
+}
+
+input[type="number"], select {
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 3px 0px #ccc;
+}
+
+#service{
+    margin-left: 50px;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3e8e41;
+}
